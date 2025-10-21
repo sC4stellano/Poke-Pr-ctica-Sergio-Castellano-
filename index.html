@@ -21,23 +21,13 @@
         </nav>
     </header>
     <main>
-        <div id="todos">
-            <div class="pokemon-todos" id="listaPokemon">
-               <!--<div class="pokemon">
-                    <div class="pokemon-imagen">
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" alt="Charizard">
-                    </div>
-                    <div class="pokemon-info">
-                        <div class="nombre-contenedor">
-                            <p class="pokemon-id">#025</p>
-                            <h2 class="pokemon-nombre">Charizard</h2>
-                        </div>
-                        <div class="pokemon-tipos">
-                            <p class="fire tipo">Fuego</p>
-                        </div>
-                    </div>
-                </div>-->
-            </div>
+    <section id="buscador" style="margin-bottom: 2rem;">
+        <h2>Buscar Pokémon</h2>
+            <input type="text" id="inputBuscar" placeholder="Nombre o ID" style="padding: 0.5rem; font-size: 1rem;">
+        <div id="resultadoBusqueda" style="margin-top: 1rem;"></div>
+    </section>
+        <div id="todos" hidden>
+             <div class="pokemon-todos" id="listaPokemon"></div>
         </div>
     </main>
 </body>
